@@ -1,5 +1,12 @@
 *~
 *.swp
+*.log
 
+/docs/
+
+# \ Erlang
 /*.lock
+/_build/
+# / Erlang
 
+!.gitignore
