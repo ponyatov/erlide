@@ -12,6 +12,10 @@ CWD     = $(CURDIR)
 TMP     = $(CWD)/tmp
 # / dir
 
+.PHONY: all
+all:
+
+
 # \ merge
 .PHONY: zip
 zip:
