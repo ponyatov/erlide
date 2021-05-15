@@ -1,3 +1,4 @@
 git make curl
 erlang
 inotify-tools
+erlang-wx

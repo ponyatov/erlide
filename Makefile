@@ -31,6 +31,7 @@ install: $(OS)_install
 	$(MAKE) rebar
 	$(MAKE) update
 update: $(OS)_update
+	$(REBAR) deps
 
 .PHONY: Linux_install Linux_update
 Linux_install Linux_update:
@@ -50,7 +51,7 @@ $(REBAR):
 zip:
 	git archive \
 		--format zip \
-		--output $(TMP)/$(MODULE)_$(NOW)_$(REL).src.zip \
+		--output $(TMP)/$(MODULE)_$(BRANCH)_$(NOW)_$(REL).src.zip \
 	HEAD
 # / merge
 
