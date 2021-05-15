@@ -12,8 +12,13 @@ CWD     = $(CURDIR)
 TMP     = $(CWD)/tmp
 # / dir
 
+# \ tool
+REBAR   = rebar3
+# / tool
+
 .PHONY: all
 all:
+	$(REBAR) compile
 
 
 # \ merge
