@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc myrelease top level supervisor.
+%% @doc erlide top level supervisor.
 %% @end
 %%%-------------------------------------------------------------------
 
--module(myrelease_sup).
+-module(erlide_sup).
 
 -behaviour(supervisor).
 

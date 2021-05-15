@@ -1,4 +1,4 @@
-myrelease
+erlide
 =====
 
 An OTP application

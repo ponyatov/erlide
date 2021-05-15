@@ -1,16 +1,16 @@
 %%%-------------------------------------------------------------------
-%% @doc myrelease public API
+%% @doc erlide public API
 %% @end
 %%%-------------------------------------------------------------------
 
--module(myrelease_app).
+-module(erlide_app).
 
 -behaviour(application).
 
 -export([start/2, stop/1]).
 
 start(_StartType, _StartArgs) ->
-    myrelease_sup:start_link().
+    erlide_sup:start_link().
 
 stop(_State) ->
     ok.

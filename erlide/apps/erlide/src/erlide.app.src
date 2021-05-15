@@ -1,8 +1,8 @@
-{application, myrelease,
+{application, erlide,
  [{description, "An OTP application"},
   {vsn, "0.1.0"},
   {registered, []},
-  {mod, {myrelease_app, []}},
+  {mod, {erlide_app, []}},
   {applications,
    [kernel,
     stdlib
