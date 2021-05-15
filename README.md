@@ -14,14 +14,15 @@ github: https://github.com/ponyatov/erlide
 
 ## Links
 
-    ### Erlang
+### Erlang
 
-    * [LYSE] Хеберт Фред
-      [Изучай Erlang во имя бобра!](https://www.ozon.ru/product/izuchay-erlang-vo-imya-dobra-hebert-fred-224324511)
-      ДМК Пресс, 2019
+* [LYSE] Хеберт Фред
+  [Изучай Erlang во имя бобра!](https://www.ozon.ru/product/izuchay-erlang-vo-imya-dobra-hebert-fred-224324511)
+  ДМК Пресс, 2019
 
-    * [Adopting Erlang](https://adoptingerlang.org/)
+* [Adopting Erlang](https://adoptingerlang.org/)
 
-    ### IDE
-        * https://github.com/ponyatov/w
-        * https://rebar3.readme.io/docs/getting-started
+### IDE
+
+* https://github.com/ponyatov/w
+* https://rebar3.readme.io/docs/getting-started
